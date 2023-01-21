@@ -1,25 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
+import FlexboxLayut from './page/flexboxLayout';
+import GridLayout from './page/gridLayout';
+import MainLayout from './page/mainLayout';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainLayout/>
   );
 }
 
 export default App;
+/*
+https://styled-components.com/docs
+https://heroicons.com/
+https://headlessui.com/react/dialog
+
+install component
+yarn add style-components react-router-dom @fortawesome/fontawesome-svg-core @tailwindcss/forms @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+*/ 
